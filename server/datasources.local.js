@@ -6,13 +6,8 @@ module.exports = {
     'connector': 'memory',
   },
   'MongoDB': {
-    'host': '',
-    'port': 0,
-    'url': '',
-    'database': '',
-    'password': '',
+    'url': 'mongodb://localhost:27017',
     'name': 'MongoDB',
-    'user': '',
     'connector': 'mongodb',
   },
 };
